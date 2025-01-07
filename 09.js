@@ -1,17 +1,18 @@
 //9-Escribe un programa que pida una frase y escriba las vocales que aparecen
 
 
-let frase = prompt("Ingrese una frase para contar vocales").trim();
+let phrase = prompt("Ingrese una frase para contar vocales").trim();
 
-frase = frase.toLowerCase();
-console.log(frase);
+phrase= phrase.toLowerCase();
+console.log(phrase);
 
-console.log(frase.length);
+console.log(phrase.length);
 
 let vocalesEncontradas = "";
 
-for (let i = 0; i < frase.length; i++) {
-  let caracter = frase.charAt(i)
+for (let i = 0; i < phrase.length; i++) {
+  let caracter = phrase.charAt(i);
+  
   if(
     caracter=== "a"||
     caracter=== "e" ||

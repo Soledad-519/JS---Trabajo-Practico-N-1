@@ -2,4 +2,4 @@
 //Ejemplo: input: Coder                                                       Output: Hola Coder
 
 let nombre = prompt("Escribe tu nombre");
-document.registro("Hola "+ nombreUsuario);
+document.white("Hola "+ nombreUsuario);

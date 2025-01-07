@@ -3,4 +3,4 @@
 let num1 = (prompt("ingrese primer numero"));
 let num2 = (prompt("ingrese segundo numero"));
 
-document.registro ("La suma de ambos numeros es: "+ (num1 + num2)) 
+document.white ("La suma de ambos numeros es: "+ (num1 + num2)) 
